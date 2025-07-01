@@ -102,7 +102,7 @@ if api_key:
             output_messages_key="answer"
         )
         
-        user_input=st.text_input("yorur question")
+        user_input=st.text_input("Please type in your query")
         if user_input:
             session_history=get_session_history(session_id)
             response=conversational_rag_chain.invoke(
