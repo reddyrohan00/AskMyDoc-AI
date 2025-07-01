@@ -32,4 +32,10 @@ scikit-learn==1.4.2
 fastapi==0.110.2
 uvicorn==0.29.0
 langserve==0.0.51
-sse_starlette=_
+sse_starlette==1.8.1
+
+# UI
+streamlit==1.35.0
+
+# Force Pydantic to work with LangChain & Python ≤ 3.11
+pydantic==1.10.13
